@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="#" />
+  </head>
+  <body>
+    <div class="player-container">
+      <div class="img-container">
+        <img src="" alt="" />
+      </div>
+      <h2 id="title">Title</h2>
+      <h3 id="name">Artist</h3>
+      <audio src=""></audio>
+      <div class="progress-container" id="progress-container">
+        <div class="progress" id="progress"></div>
+        <div class="duration-wrapper">
+          <span class="current-time">0:00</span>
+          <span class="duration">5:23</span>
+        </div>
+        <div class="player-controls">
+          <i class="fa-solid fa-backward" id="prev"></i>
+          <i class="fa-solid fa-play main-button" id="play"></i>
+          <i class="fa-solid fa-pause main-button" id="pause"></i>
+          <i class="fa-solid fa-forward" id="next"></i>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
